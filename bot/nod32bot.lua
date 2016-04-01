@@ -243,8 +243,10 @@ function create_config( )
     "filterworld",
     "server_manager",
     "time",
-    "version"
-    },
+    "version",
+    "music"
+       },
+    
 	    sudo_users = {89190607},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
