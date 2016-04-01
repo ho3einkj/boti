@@ -516,6 +516,7 @@ This command will send text to [group_id]
 you can use both "/" and "!" 
 .شما میتوانید از ! و / استفاده کنید
 
+creator:@ho3einkj
 G00D LUCK ^_^
 ]]
    }
