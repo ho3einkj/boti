@@ -1,7 +1,7 @@
 do
 
 function run(msg, matches)
-  return 'NOD32-BOT v8'.. VERSION .. [[ 
+  return 'kjbot v8'.. VERSION .. [[ 
  
   Developer : @ho3einkj
   VERSION 8
