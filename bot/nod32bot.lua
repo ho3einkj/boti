@@ -248,7 +248,6 @@ function create_config( )
     "server_manager",
     "time",
     "version"
-    "wiki"
            },
     
 	    sudo_users = {89190607},--Sudo users
