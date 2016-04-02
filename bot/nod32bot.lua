@@ -517,7 +517,7 @@ you can use both "/" and "!"
 .شما میتوانید از ! و / استفاده کنید
 
 creator:@ho3einkj
-G00D LUCK ^_^
+thanks for use this Bot
 ]]
    }
   serialize_to_file(config, './data/config.lua')
