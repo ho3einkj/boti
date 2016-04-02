@@ -221,7 +221,7 @@ function create_config( )
     "broadcast",
     "calc",
     "clash",
-    "creategroup"
+    "creategroup",
     "echoall",
     "feedback",
     "get",
