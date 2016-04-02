@@ -248,7 +248,6 @@ function create_config( )
     "server_manager",
     "time",
     "version"
-    "welcome",
     "wiki"
            },
     
