@@ -222,7 +222,6 @@ function create_config( )
     "calc",
     "clash",
     "creategroup"
-    "download_media",
     "echoall",
     "feedback",
     "get",
@@ -249,7 +248,6 @@ function create_config( )
     "server_manager",
     "time",
     "version"
-    "welcome",
     "wiki"
            },
     
