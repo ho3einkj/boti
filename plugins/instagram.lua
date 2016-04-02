@@ -1,7 +1,7 @@
 --[[
 #
-#     @GPMOD 
-#  @Dragon_Born
+#      
+#  
 #      
 ]] 
 
@@ -45,13 +45,13 @@ local function instagramUser(msg, query)
 	if user.data.website ~= '' then
 		text = text.."Website: "..user.data.website.."\n"
 	end
-	text = text.."\n@GPMod"
-	local file_path = download_to_file(user.data.profile_picture,"insta.png")     -- disable this line if you want to send profile photo as sticker
-	--local file_path = download_to_file(user.data.profile_picture,"insta.webp")    -- enable this line if you want to send profile photo as sticker
+	text = text.."\nplugin created by @ho3einkj"
+	--local file_path = download_to_file(user.data.profile_picture,"insta.png")     -- disable this line if you want to send profile photo as sticker
+	local file_path = download_to_file(user.data.profile_picture,"insta.webp")    -- enable this line if you want to send profile photo as sticker
 	local cb_extra = {file_path=file_path}
     local mime_type = mimetype.get_content_type_no_sub(ext)
-	send_photo(receiver, file_path, rmtmp_cb, cb_extra)  -- disable this line if you want to send profile photo as sticker
-	--send_document(receiver, file_path, rmtmp_cb, cb_extra)  -- enable this line if you want to send profile photo as sticker
+	--send_photo(receiver, file_path, rmtmp_cb, cb_extra)  -- disable this line if you want to send profile photo as sticker
+	send_document(receiver, file_path, rmtmp_cb, cb_extra)  -- enable this line if you want to send profile photo as sticker
 	send_msg(receiver,text,ok_cb,false)
 end
 
@@ -79,7 +79,7 @@ local function instagramMedia(msg, query)
 		  text = text.."Name: "..jdat.data.user.full_name.."\n"
 		  text = text.."Like Count: "..jdat.data.likes.count.."\n"
 	end
-	text = text.."\n@GPMod"
+	text = text.."\nplugin created by @ho3einkj"
 	send_msg(receiver,text,ok_cb,false)
 end
 local function run(msg, matches)
