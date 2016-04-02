@@ -213,14 +213,17 @@ function create_config( )
     "anti_bot",
     "anti_spam",
     "anti_chat",
+    "aparat",
     "banhammer",
     "boobs",
     "bot_manager",
     "botnumber",
     "broadcast",
     "calc",
+    "clash",
     "creategroup"
     "download_media",
+    "echoall",
     "feedback",
     "get",
     "google",
@@ -246,6 +249,8 @@ function create_config( )
     "server_manager",
     "time",
     "version"
+    "welcome",
+    "wiki"
            },
     
 	    sudo_users = {89190607},--Sudo users
@@ -356,9 +361,6 @@ This command will send text to [group_id]
 !banlist
 لیست اعضا بن شده
 
-!cgp {group name}
-(ساخت گروه با ربات  (فقط برای ادمین های ربات
-
 3-Rate Member ^
 
 !setowner [id]
@@ -441,6 +443,9 @@ This command will send text to [group_id]
 
 7-Fun time ^
 
+!cgp [group name]
+[ساخت گروه با ربات [برای ادمین ها 
+
 !time country city
 ساعت کشور مورد نظر
 
@@ -455,7 +460,22 @@ This command will send text to [group_id]
  
  !calc 3+1
  انجام محاسبات ریاضی
-
+ 
+ !aparat [video name]
+ سرچ اسم فیلم در اپارات
+ 
+ !clash [clan tag]
+ نمایش اطلاعات کلن
+ 
+ !echoall [word]
+ تکرار یک کلمه مانند اسپم
+ 
+ !instagram [username or shortinstaURL]
+ نمایش اطلاعات اکانت اینستاگرام بر اساس نام کاربری یا لینک کوتاه اینستاگرام
+ 
+ !wiki [متن]
+ سرچ متن در دانشنامه ویکی پدیا
+ 
 8-Service Provider ^
 
 !newlink
