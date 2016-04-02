@@ -219,11 +219,13 @@ function create_config( )
     "botnumber",
     "broadcast",
     "calc",
+    "creategroup"
     "download_media",
     "feedback",
     "get",
     "google",
     "gps",
+    "info",
     "ingroup",
     "inpm",
     "inrealm",
@@ -243,10 +245,8 @@ function create_config( )
     "filterworld",
     "server_manager",
     "time",
-    "version",
-    "info",
-    "music"
-       },
+    "version"
+           },
     
 	    sudo_users = {89190607},--Sudo users
     disabled_channels = {},
@@ -355,6 +355,9 @@ This command will send text to [group_id]
 
 !banlist
 لیست اعضا بن شده
+
+!cgp {group name}
+(ساخت گروه با ربات  (فقط برای ادمین های ربات
 
 3-Rate Member ^
 
