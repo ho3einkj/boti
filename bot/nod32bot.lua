@@ -221,6 +221,7 @@ function create_config( )
     "broadcast",
     "calc",
     "clash",
+    "download_media",
     "echoall",
     "feedback",
     "get",
@@ -247,6 +248,7 @@ function create_config( )
     "server_manager",
     "time",
     "version"
+    "welcome",
     "wiki"
            },
     
@@ -439,9 +441,6 @@ This command will send text to [group_id]
 باز کردن دستورات قفل شده
 
 7-Fun time ^
-
-!cgp [group name]
-[ساخت گروه با ربات [برای ادمین ها 
 
 !time country city
 ساعت کشور مورد نظر
