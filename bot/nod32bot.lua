@@ -469,6 +469,9 @@ This command will send text to [group_id]
  
 8-Service Provider ^
 
+!cgp [gp name]
+ساخت گروه جدید با اسم دلخواه مخصوص ادمین ها
+
 !newlink
 ایجاد لینک جدید
 
