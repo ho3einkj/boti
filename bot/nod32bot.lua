@@ -467,6 +467,9 @@ This command will send text to [group_id]
  !wiki [متن]
  سرچ متن در دانشنامه ویکی پدیا
  
+ !translate [word or sentens]
+ ترجمه کردن متن یا جمله
+ 
 8-Service Provider ^
 
 !cgp [gp name]
