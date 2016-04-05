@@ -470,6 +470,15 @@ This command will send text to [group_id]
  !translate [word or sentens]
  ترجمه کردن متن یا جمله
  
+ !rss [site link with http]
+ نمایش اخبار سایت ها
+ 
+ !voice [text]
+ تبدیل متن به صدا
+ 
+ !webhost [URL]
+ نمایش اسکرین شات از سایت
+ 
 8-Service Provider ^
 
 !cgp [gp name]
